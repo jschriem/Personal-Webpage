@@ -1,2 +1,0 @@
-# jschriem.github.io
-yes
