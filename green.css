@@ -1,0 +1,24 @@
+/* Theme */
+
+main {
+	background: #55BEFA;
+	color: #FEFEFE;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+#introduction {
+	font-size: 40px;
+}
+.icons a{
+	color: #FEFEFE;
+}
+
+#photo {
+		margin-left: auto;
+    margin-right: auto;
+		align-items: center;
+}
+
+.icons a svg path{
+	fill: #FEFEFE;
+}
