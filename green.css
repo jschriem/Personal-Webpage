@@ -1,19 +1,41 @@
 /* Theme */
 
 main {
-	background: #55BEFA;
+	/*padding-top: : 100px;
+	/*background: #55BEFA;
+	color: #FEFEFE;
+	*/
 	color: #FEFEFE;
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
-	position: relative;
+	position: sticky;
+
+
 
 }
 #introduction {
-	position: relative;
+	position: sticky;
 	font-size: 40px;
 
-
 }
+
+body{
+
+
+
+
+    margin: 0px;
+    padding: 0px;
+
+
+		background-image: url("DSC_0645.JPG");
+		/*background-position: fixed;*/
+		background-repeat: no-repeat;
+    background-size: cover;
+		overflow: hidden;
+
+	}
+
 .icons a{
 	font-size: 28px;
 	padding: 10px;
@@ -28,13 +50,17 @@ main {
 	color: #ffcf35;
 }
 
-#photo {
+/*#photo {
 		margin-left: auto;
     margin-right: auto;
 		align-items: center;
-		position: relative;
+<img id ="photo" src="DSC_0645.JPG" alt="Surf" >
+		max-width: 100%;
+    height: auto;
 
 }
+*/
+
 
 .icons a svg path{
 	fill: #FEFEFE;
