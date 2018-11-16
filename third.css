@@ -1,0 +1,33 @@
+body{
+ background-color: #50D5CE;
+ }
+#Error {
+  color: #FEFEFE;
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+
+}
+
+ .navbar {
+     overflow: hidden;
+ 		background-color: transparent;
+     position: fixed; /* Set the navbar to fixed position */
+     top: 0; /* Position the navbar at the top of the page */
+     width: 100%; /* Full width */
+ }
+
+ .navbar a {
+ 	font-family: 'Raleway', sans-serif;
+
+     color: #FEFEFE;
+     text-align: center;
+     padding: 14px 16px;
+ 		font-size: 25px;
+ 		transition: width 2s hight 2s ease-in 1s;
+ 		transition-property: font-size;
+ }
+
+ .navbar a:hover {
+ 	font-size: 25px;
+ 	color: #ffcf35;
+ }
