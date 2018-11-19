@@ -10,10 +10,12 @@ main {
 	padding: 0 30px;
 	text-align: center;
 
+
+
 }
 #introduction {
 	position: sticky;
-	font-size: 3.75em;
+	font-size: 3em;
 	font-weight: 600;
 	margin: 0px auto;
 	padding: 0px auto;

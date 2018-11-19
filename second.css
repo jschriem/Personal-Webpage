@@ -9,6 +9,7 @@ body{
    text-align: center;
    font-size: 48px;
    font-size: 1.875em;
+   font-weight: 500;
  }
 
 #Intro {
@@ -20,8 +21,8 @@ body{
 
 }
 #img {
-  max-width: 35%;
-  max-height: 35%;
+  max-width: 40%;
+  max-height: 60%;
 }
  .navbar {
      overflow: hidden;
@@ -37,12 +38,22 @@ body{
      color: #FEFEFE;
      text-align: center;
      padding: 14px 16px;
- 		font-size: 25px;
+ 		font-size: 26px;
  		transition: width 2s hight 2s ease-in 1s;
  		transition-property: font-size;
  }
 
  .navbar a:hover {
- 	font-size: 25px;
+ 	font-size: 26px;
  	color: #ffcf35;
+ }
+ .devto {
+ 	margin-bottom: -0.20rem;
+ }
+
+ .devto svg {
+ 	margin-bottom: -0.20rem;
+ 	margin-left: 0.675rem;;
+ 	width: 2.65rem;
+ 	height: 2.65rem;
  }
