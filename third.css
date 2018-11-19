@@ -1,11 +1,25 @@
 body{
- background-color: #D1D1DB;
+ /*background-color: #D1D1DB;*/
+ background-image: url("DSC_0426.JPG");
+ background-position: absolute;
+ background-repeat: no-repeat;
+ background-size: cover;
+ overflow: hidden;
  }
-#Error {
+#Information {
   color: #FEFEFE;
   font-family: 'Raleway', sans-serif;
   font-size: 40px;
+  text-align: center;
 
+}
+#Contact {
+  color: #FEFEFE;
+  margin-top: 25px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 48px;
+  font-size: 1.875em;
 }
 
  .navbar {
