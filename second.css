@@ -1,16 +1,27 @@
 body{
- background-color: #ffcf35;
+ background-color: #D1D1DB;
  }
-#Error {
+
+ #John {
+   text-align: center;
+   font-size: 48px;
+   font-size: 1.875em;
+   margin: 0px auto;
+ 	 padding: 0px auto;
+ }
+
+#Intro {
   color: #FEFEFE;
+  margin-top: 25px;
   font-family: 'Raleway', sans-serif;
-  font-size: 40px;
+  font-size: 30px;
+  font-size: 1.875em;
 
 }
 
  .navbar {
      overflow: hidden;
- 		background-color: transparent;
+ 		 background-color: transparent;
      position: fixed; /* Set the navbar to fixed position */
      top: 0; /* Position the navbar at the top of the page */
      width: 100%; /* Full width */

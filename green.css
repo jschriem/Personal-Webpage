@@ -1,22 +1,20 @@
 /* Theme */
 
 main {
-	/*padding-top: : 100px;
-	/*background: #55BEFA;
-	color: #FEFEFE;
-	*/
-	color: #FEFEFE;
-	text-align: center;
-	font-family: 'Raleway', sans-serif;
-	position: sticky;
-	margin: 0px auto;
-	padding: 0px auto;
 
+	color: #FEFEFE;
+	font-family: 'Raleway', sans-serif;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	padding: 0 30px;
+	text-align: center;
 
 }
 #introduction {
 	position: sticky;
-	font-size: 68px;
+	font-size: 3.75em;
+	font-weight: 600;
 	margin: 0px auto;
 	padding: 0px auto;
 }
@@ -29,7 +27,8 @@ body{
     margin: 0px auto;
     padding: 0px auto;
 		width: auto;
-    font-size: 28px;
+		font-size: 1.5rem;
+	  font-weight: 100;
 		background-image: url("DSC_0645.JPG");
 		background-position: absolute;
 		background-repeat: no-repeat;
@@ -40,7 +39,8 @@ body{
 	}
 
 .icons a{
-	font-size: 30px;
+	font-size: 1.675em;
+
 	padding: 10px;
 	color: #FEFEFE;
 	transition: width 2s hight 2s ease-in 1s;
@@ -49,7 +49,7 @@ body{
 }
 
 .icons a:hover {
-	font-size: 30px;
+
 	color: #ffcf35;
 }
 
