@@ -22,19 +22,17 @@ main {
 }
 
 body{
-
-
-
-
     margin: 0px auto;
     padding: 0px auto;
 		width: auto;
 		font-size: 1.5rem;
 	  font-weight: 100;
+
 		background-image: url("DSC_0645.JPG");
-		background-position: absolute;
+		background-position: relative;
 		background-repeat: no-repeat;
     background-size: cover;
+
 		overflow: hidden;
 		margin-top: 25px;
 
@@ -51,20 +49,10 @@ body{
 }
 
 .icons a:hover {
-
 	color: #ffcf35;
 }
 
-/*#photo {
-		margin-left: auto;
-    margin-right: auto;
-		align-items: center;
-<img id ="photo" src="DSC_0645.JPG" alt="Surf" >
-		max-width: 100%;
-    height: auto;
 
-}
-*/
 .navbar {
     overflow: hidden;
 		background-color: transparent;
@@ -75,7 +63,6 @@ body{
 
 .navbar a {
 	font-family: 'Raleway', sans-serif;
-
     color: #FEFEFE;
     text-align: center;
     padding: 14px 16px;
