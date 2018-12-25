@@ -1,21 +1,15 @@
-
+/*
+Formatting for all Home page text
+*/
 main {
 	font-family: 'Raleway', sans-serif;
 	color: #FEFEFE;
-	min-height: 100vh;
 	text-align: center;
-	margin: 0;
 }
 
-
-#introduction {
-	position: sticky;
-	font-size: 3em;
-	font-weight: 600;
-	margin: 0;
-	padding: 0px auto;
-}
-
+/*
+Home Background, relative size
+*/
 .surf {
   background: url("DSC_0645.JPG") no-repeat center;
   background-size: cover;
@@ -27,6 +21,17 @@ main {
 	margin: 0;
 }
 
+/*
+Increases size of all Home text and icons
+*/
+#introduction {
+	font-size: 3em;
+	font-weight: 600;
+}
+
+/*
+Home text spacing, Centre of page
+*/
 .surf-text {
   text-align: center;
   position: absolute;
@@ -38,43 +43,73 @@ main {
 	font-weight: 100;
 }
 
-
+/*
+0 margin around background
+*/
 body{
     margin: 0;
-	}
+}
 
+/*Icon Styling*/
 .icons a{
 	font-size: 1.675em;
 	padding: 10px;
 	color: #FEFEFE;
 	transition: width 2s hight 2s ease-in 1s;
 	transition-property: font-size;
-
 }
 
+/*Icon Color */
+.icons a svg path{
+	fill: #FEFEFE;
+}
+
+/*Icon transitions */
 .icons a:hover {
 	color: #ffcf35;
 }
 
-
+/*Arrow on home page
+Takes user to AboutMe */
 .downArrow {
 	  color: #FEFEFE;
-  	height: 7%;
   	position: absolute;
 		bottom: 7%;
 		transform: translate(-50%, -50%);
 		font-size: 2.3rem;
-		font-weight: 100;
-	}
+}
 
-	.bounce {
+/*Arrow on AboutMe page
+Takes user to Contact */
+.downArrow2 {
+		color: #00252B;
+	  position: absolute;
+		padding-top: 20%;
+		transform: translate(-50%, -50%);
+		font-size: 2.3rem;
+}
+
+/*Arrow on Contact page
+Takes user to Home */
+.upArrow {
+		color: #FEFEFE;
+		position: absolute;
+		padding-top: 25%;
+		transform: translate(-50%, -50%);
+		font-size: 2.3rem;
+}
+
+/*
+Bounce animation for arrows on all pages
+*/
+.bounce {
 		animation: bounce 3s infinite;
-	}
+}
 
-	@keyframes bounce {
+@keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     transform: translateY(0);
-  }
+	}
   40% {
     transform: translateY(-30px);
   }
@@ -83,67 +118,62 @@ body{
   }
 }
 
-.downArrow2 {
-	  color: #00252B;
-  	position: absolute;
-		bottom: auto;
-		transform: translate(-50%, -50%);
-		font-size: 2.3rem;
-		font-weight: 100;
-	}
-
-	.upArrow {
-		  color: #FEFEFE;
-
-	  	position: absolute;
-			bottom: auto;
-			transform: translate(-50%, -50%);
-			font-size: 2.3rem;
-			font-weight: 100;
-		}
-
-.icons a svg path{
-	fill: #FEFEFE;
-}
-
-#John {
-	font-family: 'Raleway', sans-serif;
-	color: #00252B;
-	text-align: center;
-	/*font-size: 48px;*/
-	font-size: 1.875em;
-	font-weight: 500;
-	height: 10%;
-}
-
+/*
+Text & spacing CSS for AboutMe
+*/
 #Intro {
+	position: relative;
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	height: 800px;
  	padding: 10%;
  	color: #00252B;
- 	/*font-size: 30px;*/
  	font-size: 1.575em;
  	background-color: #FEFEFE;
 }
-
+/*
+Fontsize, background, and spacing for Contact
+*/
 #Con {
+	position: relative;
   color: #FEFEFE;
   font-family: 'Raleway', sans-serif;
-  font-size: 36px;
+  font-size: 1.875em;
   text-align: center;
   background-color: #2ACCAF;
 	padding: 10%;
 	height: 800px;
-
 }
+
+#space {
+	color: #2ACCAF;
+}
+
+#spacer {
+	color: #FEFEFE;
+}
+/*
+Styling for Title & spacing
+*/
 #Contact {
   color: #FEFEFE;
   font-family: 'Raleway', sans-serif;
   text-align: center;
   font-size: 40px;
-  font-size: 1.875em;
+  font-size: 1.575em;
   font-weight: 500;
 	padding: 10%;
+}
 
+footer{
+	font-size: 1.2em;
+	background-color: #5C5C5C;
+	font-family: 'Raleway', sans-serif;
+	color: #FEFEFE;
+	text-align: center;
+	padding: 2%;
+}
+
+.highlight {
+	color: red;
 }
