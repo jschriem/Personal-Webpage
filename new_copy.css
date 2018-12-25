@@ -84,7 +84,7 @@ Takes user to Contact */
 .downArrow2 {
 		color: #00252B;
 	  position: absolute;
-		padding-top: 20%;
+		padding-top: 15%;
 		transform: translate(-50%, -50%);
 		font-size: 2.3rem;
 }
@@ -94,7 +94,7 @@ Takes user to Home */
 .upArrow {
 		color: #FEFEFE;
 		position: absolute;
-		padding-top: 25%;
+		padding-top: 20%;
 		transform: translate(-50%, -50%);
 		font-size: 2.3rem;
 }
