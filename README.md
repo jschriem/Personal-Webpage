@@ -1,4 +1,4 @@
-# jschriem.github.io
+#jschriem.github.io
 ##You can find the finished project here: [jschriem.me](https://jschriem.me)
 
 This site was built using [GitHub Pages](https://pages.github.com/)
