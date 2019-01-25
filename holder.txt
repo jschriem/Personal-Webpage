@@ -1,0 +1,5 @@
+<div class = "icons">
+  <a target="_blank" href="https://github.com/jschriem"><i class="fab fa-github"></i></a>
+  <a target="_blank" href="https://instagram.com/jschriem"><i class="fab fa-instagram"></i></a>
+  <a target="_blank" href="https://stackoverflow.com/story/jschriem"><i class="fab fa-stack-overflow"></i></a>
+</div>

@@ -1,3 +1,8 @@
 # jschriem.github.io
-This is my first attempt at my very own webpage
-Project under construction
+##You can find the finished project here: [jschriem.me](https://jschriem.me)
+
+This site was built using [GitHub Pages](https://pages.github.com/)
+
+- Icons from [fontawesome](https://fontawesome.com/)
+
+- Parallax.js from [parallax.js](http://pixelcog.github.io/parallax.js/)

@@ -1,0 +1,206 @@
+/*
+*	stylesheet.css for jschriem.me
+* By John Schriemer
+* 01/24/2019
+*/
+
+/*
+Title "John Schriemer"
+Color, Spacing, And Location
+*/
+.introduction {
+	position: sticky;
+	padding: 10px 0;
+	font-size: 3.2em;
+	font-weight: 600;
+	color: #FEFEFE;
+  text-align: center;
+  width: 100%;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	top: 25%;
+  right: 50%;
+}
+
+/* Css Effect for title.js */
+.introduction .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+/*
+Secondary Text on Title Page
+Color, Spacing, And Location
+*/
+.container{
+	color: #FEFEFE;
+
+	font-size: 1.5rem;
+	font-weight: 100;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 0.09em;
+	text-transform: uppercase;
+
+  z-index: 300;
+  text-align: center;
+  width: 100%;
+	top: 25%;
+	position: sticky;
+}
+
+/* Parallax effect */
+.parallax {
+    background: transparent;
+		background-position: relative;
+		background-repeat: no-repeat;
+    background-size: cover;
+
+		overflow: hidden;
+		min-height: 100vh;
+		margin: 0px auto;
+    padding: 0px auto;
+		width: auto;
+}
+
+/* 0 margin around background */
+body{
+    margin: 0;
+}
+
+/*Icon Styling */
+.icons a{
+	color: #FEFEFE;
+
+	font-size: 1.675em;
+	text-align: center;
+	padding: 0.6em;
+
+	position: relative;
+  z-index: 300;
+  width: 100%;
+
+	transition: width 2s hight 2s ease-in 1s;
+	transition-property: font-size;
+
+}
+
+/*Icon Color Effect */
+.icons a:hover {
+	color: #ffcf35;
+}
+
+/*Fade about me Effect */
+.fade {
+  opacity: 1;
+}
+
+/* Arrow on Title page */
+.downArrow {
+	  color: #FEFEFE;
+		transform: translate(-50%, -50%);
+		font-size: 2.3rem;
+		position: absolute;
+		margin-top: 8em;
+
+}
+
+/*Arrow on AboutMe page */
+.downArrow2 {
+		color: #00252B;
+	  position: absolute;
+		transform: translate(-50%, -50%);
+		font-size: 2.3rem;
+		margin-top: 10%;
+}
+
+/*Arrow on Contact page */
+.upArrow {
+		color: #FEFEFE;
+		position: absolute;
+		transform: translate(-50%, -50%);
+		font-size: 2.3rem;
+		margin-top: 10%;
+}
+
+/* Bounce animation for arrows */
+.bounce {
+		animation: bounce 3s infinite;
+}
+
+/* Bounce animation for arrows */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+	}
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+/*about me title*/
+h2{
+	letter-spacing: 0.09em;
+}
+
+/* About me text*/
+#Intro {
+	color: #00252B;
+
+	font-size: 1.575em;
+	font-family: 'Raleway', sans-serif;
+
+	text-align: center;
+	position: relative;
+	min-height: 90vh;
+ 	padding: 10%;
+
+ 	background-color: #FEFEFE;
+}
+
+/* Contact Text*/
+#Con {
+	color: #FEFEFE;
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.875em;
+
+	position: relative;
+  text-align: center;
+	padding: 1%;
+	min-height: 87vh;
+
+	background-color: #2ACCAF;
+}
+
+/* Contact Title*/
+#Contact {
+  color: #FEFEFE;
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  font-size: 1.575em;
+  font-weight: 500;
+	letter-spacing: 0.1em;
+
+	text-align: center;
+	padding: 5%;
+
+}
+
+/* Footer*/
+footer{
+	font-size: 1.2em;
+	background-color: #5C5C5C;
+	font-family: 'Raleway', sans-serif;
+	color: #FEFEFE;
+	text-align: center;
+	padding: 2%;
+}
+
+.highlight {
+	color: red;
+}
