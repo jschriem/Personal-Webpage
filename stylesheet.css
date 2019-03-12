@@ -11,7 +11,8 @@ Color, Spacing, And Location
 .introduction {
 	position: sticky;
 	padding: 10px 0;
-	font-size: 3.2em;
+	font-size: 9vw;
+
 	font-weight: 600;
 	color: #FEFEFE;
   text-align: center;
@@ -21,6 +22,14 @@ Color, Spacing, And Location
 	letter-spacing: 0.1em;
 	top: 25%;
   right: 50%;
+}
+
+@media screen and (min-width: 800px) {
+  .introduction {
+    font-size: 80px;
+		padding: 10px 0;
+		letter-spacing: 0.25em;
+  }
 }
 
 /* Css Effect for title.js */
@@ -35,8 +44,7 @@ Color, Spacing, And Location
 */
 .container{
 	color: #FEFEFE;
-
-	font-size: 1.5rem;
+	font-size: 4vw;
 	font-weight: 100;
 	font-family: 'Raleway', sans-serif;
 	letter-spacing: 0.09em;
@@ -47,6 +55,12 @@ Color, Spacing, And Location
   width: 100%;
 	top: 25%;
 	position: sticky;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    font-size: 36px;
+  }
 }
 
 /* Parallax effect */
@@ -71,18 +85,21 @@ body{
 /*Icon Styling */
 .icons a{
 	color: #FEFEFE;
-
 	font-size: 1.675em;
 	text-align: center;
 	padding: 0.6em;
-
 	position: relative;
   z-index: 300;
   width: 100%;
 
 	transition: width 2s hight 2s ease-in 1s;
 	transition-property: font-size;
+}
 
+@media screen and (min-width: 600px) {
+  .icons {
+    font-size: 42px;
+  }
 }
 
 /*Icon Color Effect */
@@ -95,24 +112,21 @@ body{
   opacity: 1;
 }
 
-/* Arrow on Title page */
-.downArrow {
-	  color: #FEFEFE;
-		transform: translate(-50%, -50%);
-		font-size: 2.3rem;
-		position: absolute;
-		margin-top: 8em;
-
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
 
-/*Arrow on AboutMe page */
-.downArrow2 {
-		color: #00252B;
-	  position: absolute;
-		transform: translate(-50%, -50%);
-		font-size: 2.3rem;
-		margin-top: 10%;
+ .dot:hover {
+  background-color: #717171;
 }
+
 
 /*Arrow on Contact page */
 .upArrow {
@@ -123,7 +137,7 @@ body{
 		margin-top: 10%;
 }
 
-/* Bounce animation for arrows */
+/* Bounce animation for arrow */
 .bounce {
 		animation: bounce 3s infinite;
 }
