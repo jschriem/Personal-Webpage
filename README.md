@@ -1,7 +1,7 @@
 # jschriem.github.io
 ## You can find the finished project here: [jschriem.me](https://jschriem.me)
 
-![alt text](https://github.com/jschriem/Personal-Webpage/blob/master/screenshot.png)
+![alt text](https://github.com/jschriem/Personal-Webpage/images/screenshot.png)
 
 This site was built using [GitHub Pages](https://pages.github.com/)
 
