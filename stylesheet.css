@@ -12,7 +12,6 @@ Color, Spacing, And Location
 	position: sticky;
 	padding: 10px 0;
 	font-size: 9vw;
-
 	font-weight: 600;
 	color: #FEFEFE;
   text-align: center;
@@ -49,7 +48,6 @@ Color, Spacing, And Location
 	font-family: 'Raleway', sans-serif;
 	letter-spacing: 0.09em;
 	text-transform: uppercase;
-
   z-index: 300;
   text-align: center;
   width: 100%;
@@ -69,7 +67,6 @@ Color, Spacing, And Location
 		background-position: relative;
 		background-repeat: no-repeat;
     background-size: cover;
-
 		overflow: hidden;
 		min-height: 100vh;
 		margin: 0px auto;
@@ -82,89 +79,55 @@ body{
     margin: 0;
 }
 
-
 /*Fade about me Effect */
 .fade {
   opacity: 1;
 }
 
-/*snake position*/
-#snake {
-	float: right;
-	display: inline;
-}
-/*snake image*/
-#battlesnake{
-	width: 30%;
-	height: 30%;
-	display: block;
-
-}
-/*Desktop view of snake*/
-@media screen and (min-width: 600px) {
-  #battlesnake {
-		width: 30%;
-		height: 30%;
-		margin-top: 50px;
-		float: left;
-		padding: 1%;
-  }
-}
-
-#surfin{
-	width: 30%;
-	height: 30%;
-}
-
-@media screen and (min-width: 600px) {
-  #surfin {
-		width: 30%;
-		height: 30%;
-		margin-top: 50px;
-		float: left;
-		padding: 1%;
-		margin-left: 25px;
-  }
-}
-
-
-@media screen and (min-width: 600px) {
-  .content {
-		margin-top: 50px;
-	  position: relative;
-	  width: 100%;
-	  max-width: 400px;
-	  overflow: hidden;
-		float: left;
-		margin-left: 35px;
-  }
+.pics{
+	font-family: 'Raleway', sans-serif;
+	font-size: 2em;
+	color: #00252B;
+	margin-bottom: 25px;
+	text-align: center;
 }
 
 .content {
-	/*margin-top: 50px;*/
   position: relative;
-  /*width: 100%;*/
-  /*max-width: 400px;*/
-	width: 30%;
-	height: 30%;
+	width: 50%;
+	height: 50%;
+	margin-bottom: 20px;
   overflow: hidden;
-	float: left;
-	/*margin-left: 35px;*/
+	float: inherit;
+	margin-left: 25%
 }
 
+@media screen and (min-width: 600px) {
+  .content {
+	  position: relative;
+	  width: 25%;
+		height:25%;
+		margin-left: 6%;
+	  overflow: hidden;
+		float: left;
+		margin-bottom: 50px;
+  }
+}
+
+/* Simple Image Overly @CodePen */
 .content .content-overlay {
-  background: rgba(0,0,0,0.7);
-  position: absolute;
-  height: 99%;
-  width: 100%;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  opacity: 0.0;
-  -webkit-transition: all 0.4s ease-in-out 0s;
-  -moz-transition: all 0.4s ease-in-out 0s;
-  transition: all 0.4s ease-in-out 0s;
+ background: rgba(0,0,0,0.7);
+ position: absolute;
+ height: 100%;
+ width: 100%;
+ left: 0;
+ top: 0;
+ bottom: 0;
+ right: 0;
+ opacity: 0.0;
+ -webkit-transition: all 0.4s ease-in-out 0s;
+ -moz-transition: all 0.4s ease-in-out 0s;
+ transition: all 0.4s ease-in-out 0s;
 }
 
 .content:hover .content-overlay{
@@ -173,9 +136,9 @@ body{
 
 .content-image{
   width: 100%;
-
 }
 
+/* Simple Image Overly @CodePen */
 .content-details {
   position: absolute;
   text-align: center;
@@ -200,16 +163,34 @@ body{
 }
 
 .content-details h3{
-  color: #fff;
-  font-weight: 500;
-  letter-spacing: 0.15em;
-  margin-bottom: 0.5em;
-  text-transform: uppercase;
+	color: #fff;
+	font-size: 0.7em;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+	margin-bottom: 0.5em;
+	text-transform: uppercase;
+}
+
+@media screen and (min-width: 600px) {
+	.content-details h3{
+  	color: #fff;
+  	font-weight: 500;
+  	letter-spacing: 0.15em;
+  	margin-bottom: 0.5em;
+  	text-transform: uppercase;
+	}
 }
 
 .content-details p{
-  color: #fff;
-  font-size: 0.8em;
+	color: #fff;
+	font-size: 0.5em;
+}
+
+@media screen and (min-width: 600px) {
+	.content-details p{
+  	color: #fff;
+  	font-size: 0.8em;
+	}
 }
 
 .fadeIn-bottom{
@@ -255,8 +236,7 @@ h2{
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	position: relative;
-	min-height: 90vh;
- 	padding: 10%;
+ 	padding: 5%;
  	background-color: #FEFEFE;
 }
 
@@ -264,10 +244,11 @@ h2{
 	font-family: 'Raleway', sans-serif;
 	font-size: 2em;
 	color: #00252B;
-	margin-top: 100px;
+	margin-top: 50px;
 	margin-bottom: 50px;
 	text-align: center;
-	min-height: 40vh;
+	min-height: 50vh;
+	clear:both;
 }
 
 #code{
@@ -303,7 +284,6 @@ h2{
 #Contact {
  padding: 5%;
 }
-
 
 /*Icon Styling */
 .icons a{
