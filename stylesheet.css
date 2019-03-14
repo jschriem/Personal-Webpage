@@ -82,30 +82,6 @@ body{
     margin: 0;
 }
 
-/*Icon Styling */
-.icons a{
-	color: #FEFEFE;
-	font-size: 1.675em;
-	text-align: center;
-	padding: 0.6em;
-	position: relative;
-  z-index: 300;
-  width: 100%;
-
-	transition: width 2s hight 2s ease-in 1s;
-	transition-property: font-size;
-}
-
-@media screen and (min-width: 600px) {
-  .icons {
-    font-size: 30px;
-  }
-}
-
-/*Icon Color Effect */
-.icons a:hover {
-	color: #ffcf35;
-}
 
 /*Fade about me Effect */
 .fade {
@@ -284,11 +260,33 @@ h2{
  	background-color: #FEFEFE;
 }
 
-#snakeID{
-	float: right;
+.lang{
+	font-family: 'Raleway', sans-serif;
+	font-size: 2em;
+	color: #00252B;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	text-align: center;
+	min-height: 40vh;
 }
 
-/* Contact Text*/
+#code{
+	text-align: center;
+	letter-spacing: 0.55em;
+	font-size: 1.6em;
+	position: relative;
+}
+
+@media screen and (min-width: 600px) {
+  #code{
+		text-align: center;
+		letter-spacing: 0.3em;
+		font-size: 2em;
+		position: relative;
+  }
+}
+
+/* Contact Title*/
 #Con {
 	color: #FEFEFE;
   font-family: 'Raleway', sans-serif;
@@ -301,21 +299,36 @@ h2{
 	letter-spacing: 0.05em;
 }
 
-/* Contact Title*/
-
+/* Contact spacing*/
 #Contact {
  padding: 5%;
 }
 
-#email {
-	font-size: 60px;
-	text-decoration: none;
-	padding: 20px;
+
+/*Icon Styling */
+.icons a{
+	color: #FEFEFE;
+	font-size: 1em;
+	margin-top: 80px;
+  z-index: 300;
+	transition: width 2s hight 2s ease-in 1s;
+	transition-property: font-size;
 }
-#github{
-	font-size: 60px;
+/*icon styling for >600px width */
+@media screen and (min-width: 600px) {
+  .icons a{
+    font-size: 60px;
+		padding: 0.6em;
+  }
+}
+
+/*Icon Color Effect */
+.icons a:hover {
+	color: #ffcf35;
+}
+
+#email{
 	text-decoration: none;
-		padding: 20px;
 }
 
 /* Footer*/
