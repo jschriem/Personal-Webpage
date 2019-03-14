@@ -98,7 +98,7 @@ body{
 
 @media screen and (min-width: 600px) {
   .icons {
-    font-size: 42px;
+    font-size: 30px;
   }
 }
 
@@ -112,21 +112,133 @@ body{
   opacity: 1;
 }
 
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: white;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+/*snake position*/
+#snake {
+	float: right;
+	display: inline;
+}
+/*snake image*/
+#battlesnake{
+	width: 30%;
+	height: 30%;
+	display: block;
+
+}
+/*Desktop view of snake*/
+@media screen and (min-width: 600px) {
+  #battlesnake {
+		width: 30%;
+		height: 30%;
+		margin-top: 50px;
+		float: left;
+		padding: 1%;
+  }
 }
 
- .dot:hover {
-  background-color: #717171;
+#surfin{
+	width: 30%;
+	height: 30%;
 }
 
+@media screen and (min-width: 600px) {
+  #surfin {
+		width: 30%;
+		height: 30%;
+		margin-top: 50px;
+		float: left;
+		padding: 1%;
+		margin-left: 25px;
+  }
+}
+
+
+@media screen and (min-width: 600px) {
+  .content {
+		margin-top: 50px;
+	  position: relative;
+	  width: 100%;
+	  max-width: 400px;
+	  overflow: hidden;
+		float: left;
+		margin-left: 35px;
+  }
+}
+
+.content {
+	/*margin-top: 50px;*/
+  position: relative;
+  /*width: 100%;*/
+  /*max-width: 400px;*/
+	width: 30%;
+	height: 30%;
+  overflow: hidden;
+	float: left;
+	/*margin-left: 35px;*/
+}
+
+.content .content-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay{
+  opacity: 1;
+}
+
+.content-image{
+  width: 100%;
+
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3{
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.content-details p{
+  color: #fff;
+  font-size: 0.8em;
+}
+
+.fadeIn-bottom{
+  top: 80%;
+}
 
 /*Arrow on Contact page */
 .upArrow {
@@ -134,7 +246,7 @@ body{
 		position: absolute;
 		transform: translate(-50%, -50%);
 		font-size: 2.3rem;
-		margin-top: 10%;
+		margin-top: 5em;
 }
 
 /* Bounce animation for arrow */
@@ -163,46 +275,47 @@ h2{
 /* About me text*/
 #Intro {
 	color: #00252B;
-
 	font-size: 1.575em;
 	font-family: 'Raleway', sans-serif;
-
 	text-align: center;
 	position: relative;
 	min-height: 90vh;
  	padding: 10%;
-
  	background-color: #FEFEFE;
+}
+
+#snakeID{
+	float: right;
 }
 
 /* Contact Text*/
 #Con {
 	color: #FEFEFE;
-
   font-family: 'Raleway', sans-serif;
-  font-size: 1.875em;
-
+  font-size: 2.875em;
 	position: relative;
   text-align: center;
-	padding: 1%;
-	min-height: 87vh;
-
+	padding: 5%;
+	min-height: 70vh;
 	background-color: #2ACCAF;
+	letter-spacing: 0.05em;
 }
 
 /* Contact Title*/
+
 #Contact {
-  color: #FEFEFE;
+ padding: 5%;
+}
 
-  font-family: 'Raleway', sans-serif;
-  font-size: 40px;
-  font-size: 1.575em;
-  font-weight: 500;
-	letter-spacing: 0.1em;
-
-	text-align: center;
-	padding: 5%;
-
+#email {
+	font-size: 60px;
+	text-decoration: none;
+	padding: 20px;
+}
+#github{
+	font-size: 60px;
+	text-decoration: none;
+		padding: 20px;
 }
 
 /* Footer*/
