@@ -74,6 +74,17 @@ Color, Spacing, And Location
 		width: auto;
 }
 
+
+/* Arrow on Title page */
+.downArrow {
+	  color: #FEFEFE;
+		transform: translate(-50%, -50%);
+		font-size: 2.3rem;
+		position: absolute;
+		margin-top: 8em;
+
+}
+
 /* 0 margin around background */
 body{
     margin: 0;
@@ -139,15 +150,16 @@ h2{
 
 #code{
 	text-align: center;
-	letter-spacing: 0.55em;
+	letter-spacing: 0.8em;
 	font-size: 1.6em;
 	position: relative;
+	left: 15px;
 }
 
 @media screen and (min-width: 600px) {
   #code{
 		text-align: center;
-		letter-spacing: 0.3em;
+		letter-spacing: 0.4em;
 		font-size: 2em;
 		position: relative;
   }
@@ -276,7 +288,8 @@ h2{
 	transition: width 2s hight 2s ease-in 1s;
 	transition-property: font-size;
 	text-align: center;
-	padding-right: 1em;
+	padding-right: 1.1em;
+	margin-left: 10px;
 }
 /*icon styling for >600px width */
 @media screen and (min-width: 600px) {
@@ -292,6 +305,10 @@ h2{
 /*Icon Color Effect */
 .icons a:hover {
 	color: #ffcf35;
+}
+
+#git{
+	padding-left: 0.7em;
 }
 
 #email{
