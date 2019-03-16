@@ -84,12 +84,82 @@ body{
   opacity: 1;
 }
 
+/*Arrow on Contact page */
+.upArrow {
+		color: red;
+		/*color: #00252B;*/
+		position: absolute;
+		transform: translate(-50%, -50%);
+		font-size: 2.3rem;
+		margin-top: 5em;
+	  float:right;
+}
+
+/* Bounce animation for arrow */
+.bounce {
+		animation: bounce 3s infinite;
+}
+
+/* Bounce animation for arrows */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+	}
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+/*about me title*/
+h2{
+	letter-spacing: 0.09em;
+}
+
+/* About me text*/
+#Intro {
+	color: #00252B;
+	font-size: 1.575em;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	position: relative;
+ 	padding: 5%;
+ 	background-color: #FEFEFE;
+}
+
+.lang{
+	font-family: 'Raleway', sans-serif;
+	font-size: 2em;
+	color: #00252B;
+	text-align: center;
+	clear:both;
+}
+
+#code{
+	text-align: center;
+	letter-spacing: 0.55em;
+	font-size: 1.6em;
+	position: relative;
+}
+
+@media screen and (min-width: 600px) {
+  #code{
+		text-align: center;
+		letter-spacing: 0.3em;
+		font-size: 2em;
+		position: relative;
+  }
+}
+
 .pics{
 	font-family: 'Raleway', sans-serif;
 	font-size: 2em;
 	color: #00252B;
 	margin-bottom: 25px;
 	text-align: center;
+	background-color: #FEFEFE;
 }
 
 .content {
@@ -197,108 +267,25 @@ body{
   top: 80%;
 }
 
-/*Arrow on Contact page */
-.upArrow {
-		color: #FEFEFE;
-		position: absolute;
-		transform: translate(-50%, -50%);
-		font-size: 2.3rem;
-		margin-top: 5em;
-}
-
-/* Bounce animation for arrow */
-.bounce {
-		animation: bounce 3s infinite;
-}
-
-/* Bounce animation for arrows */
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
-	}
-  40% {
-    transform: translateY(-30px);
-  }
-  60% {
-    transform: translateY(-15px);
-  }
-}
-
-/*about me title*/
-h2{
-	letter-spacing: 0.09em;
-}
-
-/* About me text*/
-#Intro {
-	color: #00252B;
-	font-size: 1.575em;
-	font-family: 'Raleway', sans-serif;
-	text-align: center;
-	position: relative;
- 	padding: 5%;
- 	background-color: #FEFEFE;
-}
-
-.lang{
-	font-family: 'Raleway', sans-serif;
-	font-size: 2em;
-	color: #00252B;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	text-align: center;
-	min-height: 50vh;
-	clear:both;
-}
-
-#code{
-	text-align: center;
-	letter-spacing: 0.55em;
-	font-size: 1.6em;
-	position: relative;
-}
-
-@media screen and (min-width: 600px) {
-  #code{
-		text-align: center;
-		letter-spacing: 0.3em;
-		font-size: 2em;
-		position: relative;
-  }
-}
-
-/* Contact Title*/
-#Con {
-	color: #FEFEFE;
-  font-family: 'Raleway', sans-serif;
-  font-size: 2.875em;
-	position: relative;
-  text-align: center;
-	padding: 5%;
-	min-height: 70vh;
-	background-color: #2ACCAF;
-	letter-spacing: 0.05em;
-}
-
-/* Contact spacing*/
-#Contact {
- padding: 5%;
-}
-
 /*Icon Styling */
 .icons a{
 	color: #FEFEFE;
-	font-size: 1em;
-	margin-top: 80px;
+	font-size: 2em;
+	margin-top: 10px;
   z-index: 300;
 	transition: width 2s hight 2s ease-in 1s;
 	transition-property: font-size;
+	text-align: center;
+	padding-right: 1em;
 }
 /*icon styling for >600px width */
 @media screen and (min-width: 600px) {
   .icons a{
-    font-size: 60px;
-		padding: 0.6em;
+    font-size: 40px;
+		text-spacing: 2em;
+		text-align: center;
+		padding-right: 1em;
+
   }
 }
 
@@ -309,18 +296,16 @@ h2{
 
 #email{
 	text-decoration: none;
+	padding-right: 1em;
 }
 
 /* Footer*/
 footer{
+	background-color: #FEFEFE;
 	font-size: 1.2em;
-	background-color: #5C5C5C;
+	background-color: #00252B;
 	font-family: 'Raleway', sans-serif;
 	color: #FEFEFE;
 	text-align: center;
 	padding: 2%;
-}
-
-.highlight {
-	color: red;
 }
