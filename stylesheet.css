@@ -282,14 +282,14 @@ h2{
 /*Icon Styling */
 .icons a{
 	color: #FEFEFE;
-	font-size: 2em;
+	font-size: 1.5em;
 	margin-top: 10px;
   z-index: 300;
 	transition: width 2s hight 2s ease-in 1s;
 	transition-property: font-size;
 	text-align: center;
-	padding-right: 1.1em;
-	margin-left: 10px;
+	padding-right: 1em;
+	margin-left: 9px;
 }
 /*icon styling for >600px width */
 @media screen and (min-width: 600px) {
