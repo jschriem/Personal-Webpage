@@ -1,6 +1,7 @@
-# Personal Webpage 
+# Personal Webpage
 ## You can find the finished project here: [jschriem.me](https://jschriem.me)
 Built this site to practice HTML, CSS and Javascript and increase my front-end developer abilities.
+This site showcases some of my past and current projects.
 
 ![Screen Shot](https://github.com/jschriem/Personal-Webpage/blob/master/images/screenshot.png?raw=true)
 
